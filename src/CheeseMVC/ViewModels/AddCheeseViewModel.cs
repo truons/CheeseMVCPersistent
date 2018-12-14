@@ -19,6 +19,7 @@ namespace CheeseMVC.ViewModels
 
         [Required]
         [Display(Name = "Category")]
+        //[Range(1, Int32.MaxValue)]
         public int CategoryID { get; set; }
         public List<SelectListItem> Categories { get; set; }
 
